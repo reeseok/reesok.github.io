@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ha, you suck</title>
+</head>
+<body>
+	<!-- This is a HTML coment. We can describe our code here. -->
+	<h2 style="color:#CFFFE5">Remember kids, Reese Is Awesome</h2>
+	<p id="paragraph" style="font-style:italic;color:blue"> Type something in the box to see that on the screen.</p>
+	<input type="text" id="inputArea"/>
+	<input type="button" value="Click Me" id="inputButton" onclick="ChangeTextFunction()"/>
+
+	<script>
+		//This is a comment. We describe our code here.
+		function ChangeTextFunction() {
+			var inputText = document.getElementById('inputArea').value;
+			document.getElementById("paragraph").innerText = inputText;		
+		
+		}	
+	</script>
+</body>
+
+
+</html>
